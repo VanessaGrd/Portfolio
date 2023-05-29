@@ -1,0 +1,54 @@
+/*Navbar*/
+
+.navbar{
+    background-color: 
+    rgba(66, 123, 95, 0.6);    
+    color: white;
+     display: flex;
+    flex-direction: row;
+justify-content: space-between;
+text-decoration: none;
+list-style-type: none;
+    width: 100vw;
+    height: 80px;
+    align-items: center;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 8px 5px 5px rgb(95, 91, 91); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.navbar a{
+    color:#2d2e32;
+    background-color: transparent;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 900;
+    font-size: 1.2rem;
+
+
+
+}
+
+.navbarLinks{
+    display: flex;
+}
+
+/*Logo*/
+.logo{
+    width:30vh;
+    height: 100%;
+    padding-left: 20px;
+    position: relative;
+
+
+}
+@media screen and (max-width : 700px) {
+    .navbar a{
+display: none;
+    }
+}

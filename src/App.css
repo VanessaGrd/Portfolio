@@ -1,0 +1,12 @@
+.Toastify__toast {
+ border-radius: 255px 25px 255px 25px/255px 25px 255px 25px;
+ text-decoration: none;
+ position: absolute;
+ top: 200px;
+}
+
+.Toastify__toast--success{
+    color: #2d2e32;
+    background-color: #56cc9d ;
+    border-color: #56cc9d;
+}
