@@ -1,4 +1,4 @@
-import logo from "../assets/logoVG.png";
+import logo from "../assets/logoportfolio2.png";
 import styles from "./Navbar.module.css";
 
 function Navbar() {

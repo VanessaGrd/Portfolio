@@ -1,4 +1,4 @@
-import picture from "../assets/picture.jpg";
+import picture from "../assets/profilepicture1.jpg";
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import pictureRandom from "../assets/pictureRandom.jpg";

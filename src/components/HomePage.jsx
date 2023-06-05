@@ -9,6 +9,8 @@ function HomePage() {
   return (
     <>
       <body>
+      <div className={styles.scrollbar}>
+      </div>
         <Navbar />
         <Presentation />
         <About />
