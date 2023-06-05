@@ -96,9 +96,11 @@ button:hover{
 @media screen and (max-width: 700px) {
     .form {
         width: 100%;
+        height: 70vh;
+        margin-top: 10px;
     }
     .contactContainer h2{
-        font-size:1.5rem;
+        font-size:1rem;
        margin: 5px;
        letter-spacing: 5px;
 text-align: center;
@@ -107,11 +109,19 @@ text-align: center;
 
     .contactContainer{
         width: 90%;
+        padding-top: 10px;
+
 
     }
 
 .name, .firstName, .email, .message{
 width: 80vw;
+font-size: 1rem;
   
 }
+input{
+height: 30px;
+}
+
+
 }
